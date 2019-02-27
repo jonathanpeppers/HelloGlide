@@ -14,6 +14,7 @@ namespace HelloGlide.Droid
 
 			base.OnCreate (savedInstanceState);
 			Xamarin.Forms.Forms.Init (this, savedInstanceState);
+			Android.Glide.Forms.Init (debug: true);
 			LoadApplication (new App ());
 		}
 	}
